@@ -3,7 +3,7 @@ import React from 'react'
 import { useState } from 'react'
 import { app } from './Firebase.js'
 import { Link, useNavigate } from 'react-router-dom'
-const Signin = () => {
+const SignIN = () => {
     const navigate = useNavigate();
     const auth = getAuth(app);
 
@@ -35,4 +35,4 @@ const Signin = () => {
   )
 }
 
-export default Signin
+export default SignIN
