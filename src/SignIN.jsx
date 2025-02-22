@@ -1,7 +1,7 @@
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'
 import React from 'react'
 import { useState } from 'react'
-import { app } from './Firebase'
+import { app } from './Firebase.js'
 import { Link, useNavigate } from 'react-router-dom'
 const Signin = () => {
     const navigate = useNavigate();
