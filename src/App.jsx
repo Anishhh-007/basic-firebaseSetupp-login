@@ -3,7 +3,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import Layout from './Layout.jsx'
 
 import Signin from './Signin.jsx'
-import Login from './login.jsx'
+import Login from './Login.jsx'
 import Welcome from './Welcome.jsx'
 const App = () => {
 
